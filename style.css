@@ -1,21 +1,25 @@
 html {
   min-height: 100%;
-  background-image: url(bg2.jpg);
-  background-size: cover;
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: Montserrat;
 }
 
-h2 {
+
+
+h2, button {
   font-family: Titillium Web;
 }
-
 
 a {
   text-decoration: none !important;
 }
 
 .nav {
-  border: none;
+  /* position: sticky;
+  top: 0; */
+  border: 1px solid white;
   border-radius: 10px;
   background-color: black;
   width: 70%;
@@ -93,4 +97,15 @@ p {
 
 li {
   margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 36px;
+  background-image: linear-gradient( 109.6deg,  #04619F, #000000 );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  filter: brightness(1.85);
 }
