@@ -1,8 +1,12 @@
 html {
   min-height: 100%;
-  background-image: url(bg1.jpg);
+  background-image: url(bg2.jpg);
   background-size: cover;
   font-family: Montserrat;
+}
+
+h2 {
+  font-family: Titillium Web;
 }
 
 
@@ -13,7 +17,7 @@ a {
 .nav {
   border: none;
   border-radius: 10px;
-  /* background-color: #330033; */
+  background-color: black;
   width: 70%;
   height: auto;
   margin: auto;
@@ -33,13 +37,13 @@ a {
 
 .nav button:hover{
   border-radius: 5px;
-  box-shadow: 0 1px 1px white;
+  box-shadow: 0 2px 1px white;
   transition: border 0.2s, box-shadow 0.2s;
 }
 
 .nav button:active{
   border-radius: 5px;
-  box-shadow: 0 1px 1px red;
+  box-shadow: 0 2px 1px red;
   transition: border 0.2s, box-shadow 0.2s;
 }
 
@@ -52,30 +56,41 @@ a {
   padding: 5px;
 }
 
+.nav .icon:hover {
+  box-shadow: 2px 2px 1px blue;
+}
+
+.nav .icon:active {
+  box-shadow: 2px 2px 1px red;
+}
+
 .icons {
   cursor: pointer;
 }
 
 .container {
-  width: 65%;
+  width: 96%;
+  height: 90%;
   margin: auto;
   padding: 15px;
   background-color: white;
-  border: 2px solid yellow;
   border-radius: 15px;
   margin-bottom: 35px;
 }
 
-.double-container {
+.container-backgrounds {
   width: 65%;
   margin: auto;
   padding: 0;
-  border: none;
+  background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);
   border-radius: 15px;
-  margin-bottom: 35px;
 }
 
 p {
   line-height: 1.5;
   text-align: center;
+}
+
+li {
+  margin-bottom: 8px;
 }
